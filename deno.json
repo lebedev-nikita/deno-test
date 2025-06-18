@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["deno.window", "dom"]
+  },
+  "imports": {
+    "@types/express": "npm:@types/express@^5.0.3"
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["explicit-function-return-type"]
+    }
+  }
+}
